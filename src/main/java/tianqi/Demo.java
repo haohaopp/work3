@@ -12,7 +12,7 @@ public class Demo {
         for(City city:cities){
             sb.append(city.getName()+",");
         }
-        System.out.println("已有的城市："+sb.toString());
+        System.out.println("已有的城市："+sb);
         String input = sc.nextLine();
         City cityToQuery=null;
         for(City city:cities){
@@ -48,5 +48,6 @@ public class Demo {
             System.out.println(SQLUtil.queryCityWeather(cityToQuery));
         }
         System.out.println("-----------------");
+        sc.close();
     }
 }

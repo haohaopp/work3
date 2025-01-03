@@ -40,7 +40,7 @@ System.out.println(JdbcUtil.queryOrders(Timestamp.valueOf("2024-12-28 00:00:00")
 
 结果：
 
-![](pic\image-20250103114453797.png)
+![](pic/image-20250103114453797.png)
 
 查询商品实例：
 

@@ -106,6 +106,7 @@ public class SQLUtil {
     }
 
     public static void storeWeatherData(String cityId, CityWeather[] weathers){
+        //将查到的数据存储，并覆盖原数据
         try {
             Connection conn=DriverManager.getConnection(url,user,password);
             for(int i=0;i<weathers.length;i++){
@@ -142,6 +143,7 @@ public class SQLUtil {
         }
     }
     public static void storeCity(City city){
+        //将查到的city数据存储到city表
         try{
             Connection conn=DriverManager.getConnection(url,user,password);
             Statement st=conn.createStatement();

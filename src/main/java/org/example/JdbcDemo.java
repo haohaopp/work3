@@ -6,7 +6,8 @@ public class JdbcDemo {
     public static void main(String[] args)  {
         try {
             JdbcUtil.Connection();
-//            String q=JdbcUtil.queryOrders(Timestamp.valueOf("2024-12-23 00:00:00"), Timestamp.valueOf("2024-12-23 23:59:59"));
+
+//            String q=JdbcUtil.queryOrders(Timestamp.valueOf("2024-12-28 00:00:00"), Timestamp.valueOf("2024-12-28 23:59:59"));
 //            System.out.println(q);
 
 //            String []products={"iPhone 14","Mate60"};
@@ -21,6 +22,7 @@ public class JdbcDemo {
 //            System.out.println(JdbcUtil.insertProduct("Xiaomi 15",3000.00));
 
 //            System.out.println(JdbcUtil.updateOrder(1,"2024-12-26 21:09:48"));
+//            System.out.println(JdbcUtil.queryProducts("Mate60"));
 
 
 

@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.zip.GZIPInputStream;
 
 public class WeatherAPI {
-    private static final String apiKey = "81d2c73ab71144548ba9413bf6b3cf62";
+    private static final String apiKey = "*****";
     private static final String url = "https://devapi.qweather.com/v7/weather/3d";//三日天气api
     private static final String url1 = "https://geoapi.qweather.com/v2/city/lookup";//查询城市id的api
 
